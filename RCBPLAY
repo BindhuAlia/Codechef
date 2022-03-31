@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	int x,y,z;
+	while(t--)
+	{
+	  cin>>x>>y>>z;
+	  int runs=y-x;
+	  if(z*2>=runs)cout<<"yes";
+	  else cout<<"no";
+	  cout<<endl;
+	}
+	return 0;
+}
