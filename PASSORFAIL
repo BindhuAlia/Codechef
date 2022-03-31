@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    int n,x,p;
+    int c=3,w=-1;
+    while(t--)
+    {
+    cin>>n>>x>>p;
+    int res=(x*c)+((n-x)*w);
+    if(res>=p)cout<<"pass"<<endl;
+    else cout<<"fail"<<endl;
+    cout<<endl;
+    }
+    
+	return 0;
+}
