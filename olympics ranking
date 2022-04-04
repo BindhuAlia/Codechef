@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int g1,s1,b1,g2,s2,b2;
+	    cin>>g1>>s1>>b1>>g2>>s2>>b2;
+	    int a=g1+b1+s1;
+	    int b=g2+b2+s2;
+	    if(a>b)cout<<1;
+	    else cout<<2;
+	    cout<<endl;
+	}
+	return 0;
+}
